@@ -13,7 +13,7 @@ data
 │   ├── train.json
 │   ├── valid.json 
 │   ├── test.json 
-│   └──topic_splits.json
+│   └── topic_splits.json
 ```
 2. 修改`./data/preprocess_wizard.py`中的输入输出文件参数，运行将两个数据中对应的valid和test数据生成对应的预处理文件（用于计算entity和knowledge F1 Score），最后文件夹内容如下
 ```
@@ -31,7 +31,7 @@ data
 │   ├── valid_seen.json 
 │   ├── test.json 
 │   ├── test_seen.json
-│   └──topic_splits.json
+│   └── topic_splits.json
 ```
 
 ### 安装环境
